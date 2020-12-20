@@ -1,0 +1,166 @@
+/* #d0ccca grey
+#efac05 orange
+#f9b301 orangebody */
+
+*{
+    margin: 0px;
+    padding:0px;
+}
+body{
+    height:100%;
+    width:100%;
+    background-color: #f9b301;
+   
+}
+.main{
+    background:linear-gradient(to right,#f9b301 25%,white 25%);
+    width:90%;
+    height:90%;
+    margin:5% 5% 5% 5%;
+    box-shadow: 0px 0px 10px gray;
+}   
+.nav{
+    height:60px;
+    width:100%;
+    padding-top:20px;
+    margin-bottom:10px;
+} 
+
+.navright ul{
+    list-style-type: none;
+    float:right;
+}
+
+.navright ul li{
+    float:left;
+    padding:10px;
+    padding-right:50px;
+    font-family: Calibri;
+    font-weight: bold;
+    color:rgb(56, 55, 55);
+}
+.navleft ul{
+    padding-top:10px;
+    list-style-type: none;
+    float:left;
+    padding-left:10px;
+}
+.navleft ul li{
+    float:left;
+    padding-left:30px;
+    padding-right: 20px;
+}
+.navleft ul li img{
+    height:20px;
+    width:20px;
+    opacity: 75%;
+}
+.mainleft{
+    float:left;
+    width:40%;
+    height:80%;
+    margin-left:40px;
+}
+
+.mainleft img{
+    width: 100%;
+}
+
+.mainleft .mainleftbottom{
+    height:50px;
+    width:100%;
+    display: flex;
+    background:linear-gradient(to right,black 65%,#f9b301 65%); 
+}
+
+.mainleft .mainleftbottom .play{
+    width:65%;
+    }
+.mainleft .mainleftbottom .playicons{
+   padding:10px 10px;
+}
+.mainleft .mainleftbottom .playicons img{
+    vertical-align: center;
+    height:9px;
+    width:5px;
+}
+#prev{
+    transform:scale(-1);
+    margin-right:50px;
+}
+
+.mainright{
+    margin-left:50%;
+}
+
+.fashion{
+    background-color:gray;
+    font-family:Calibri;
+    color:white;
+    font-weight: bold;
+    height:22px;
+    width:60px;
+    text-align:center;
+}
+
+.profilecontent{
+    margin-top:20px;
+}
+
+.profilecontent h2{
+    font-family:Calibri;
+    font-size:3em;
+}
+.profilecontent p{
+    margin-top:10px;
+    font-family:Calibri;
+    color:gray;
+    margin-right:10px;
+}
+.readmore{
+    padding-top:10px;
+    font-family:Calibri;
+    font-weight: bold;
+}
+.readmore img{
+    padding-left:15px;
+    height:10px;
+    width:8px;
+}
+.subscribe{
+    padding-top:50px;
+}
+
+.subscribe p{
+    font-family:Calibri;
+    font-weight: bold;
+    font-size:0.75em;
+    padding-left:10px;
+}
+
+.subscribearea{
+    margin-top:12px;
+    height:50px;
+    width:90%;
+    background:linear-gradient(to right,white 60%,#f9b301 60%);
+    box-shadow:0px 0px 10px gray;
+    display:flex;
+}
+
+.subscribearea input{
+    vertical-align: center;
+    border:0;
+    font-family: Calibri;
+    width:60%;
+    padding-left:15px;
+}
+
+.subscribearea button{
+    background-color: #f9b301;
+    border:0;
+    box-shadow: 0;
+    width:50%;
+    font-family:Calibri;
+    font-weight: bold;
+    color:rgb(20, 20, 20);
+}
